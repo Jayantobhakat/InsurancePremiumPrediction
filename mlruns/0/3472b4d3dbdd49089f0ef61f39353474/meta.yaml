@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/InsurancePremiumPrediction/mlruns/0/3472b4d3dbdd49089f0ef61f39353474/artifacts
+end_time: 1706197206374
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3472b4d3dbdd49089f0ef61f39353474
+run_name: unequaled-cod-767
+run_uuid: 3472b4d3dbdd49089f0ef61f39353474
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706197205949
+status: 4
+tags: []
+user_id: erjay
