@@ -6,6 +6,8 @@ The goal of this project is to give people an estimate of how much they need bas
 
 DATASET: The datset is taken from a Kaggle. You can download the dataset from https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
 
+URL: https://premiumprediction.azurewebsites.net/predictdata
+
 APPROACH:
 Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and model testing to build a solution that should able to predict the premium of the personal for health insurance.
 - Data Exploration : Exploring the dataset using pandas, numpy, matplotlib, plotly and seaborn.
@@ -38,3 +40,4 @@ vi.KNN
 
   CONCLUSION
 This project successfully demonstrates the application of machine learning in predicting medical insurance premiums. The model's performance indicates its potential in aiding individuals to make informed healthcare decisions. While the model is a powerful tool, it complements, not replaces, professional advice. Future work could expand this model, exploring more variables and sophisticated techniques, further enhancing its predictive power. Ultimately, this project highlights the transformative potential of data science in healthcare and insurance industries.t
+-> xgboost
