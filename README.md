@@ -34,9 +34,10 @@ vi.KNN
 -> Flask
 -> dill
 -> seaborn
--> catboos
+-> catboost
+-> xgboost
 
 
   CONCLUSION
-This project successfully demonstrates the application of machine learning in predicting medical insurance premiums. The model's performance indicates its potential in aiding individuals to make informed healthcare decisions. While the model is a powerful tool, it complements, not replaces, professional advice. Future work could expand this model, exploring more variables and sophisticated techniques, further enhancing its predictive power. Ultimately, this project highlights the transformative potential of data science in healthcare and insurance industries.t
--> xgboost
+This project successfully demonstrates the application of machine learning in predicting medical insurance premiums. The model's performance indicates its potential in aiding individuals to make informed healthcare decisions. While the model is a powerful tool, it complements, not replaces, professional advice. Future work could expand this model, exploring more variables and sophisticated techniques, further enhancing its predictive power. Ultimately, this project highlights the transformative potential of data science in healthcare and insurance industries.
+
