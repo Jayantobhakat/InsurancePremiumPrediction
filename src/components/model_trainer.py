@@ -2,8 +2,6 @@ import os
 import sys
 from dataclasses import dataclass
 from urllib.parse import urlparse
-import mlflow
-import mlflow.sklearn
 import numpy as np
 from sklearn.metrics import mean_squared_error,mean_absolute_error
 from catboost import CatBoostRegressor
@@ -29,13 +27,6 @@ class ModelTrainerConfig:
 class ModelTrainer:
     def __init__(self):
         self.model_trainer_config=ModelTrainerConfig()
-
-    def eval_metrics(self,actual, pred):
-        rmse = np.sqrt(mean_squared_error(actual, pred))
-        mae = mean_absolute_error(actual, pred)
-        r2 = r2_score(actual, pred)
-        return rmse, mae, r2    
-
 
     def initiate_model_trainer(self,train_array,test_array):
         try:

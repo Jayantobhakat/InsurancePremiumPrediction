@@ -1,8 +1,13 @@
+<!DOCTYPE html>
 <html>
-<body>
-    <div class="login">
-       <h1>Insurance Premium Indicator</h1>
-   
+  <head>
+    <title>Insurance Premium Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <a href="https://github.com/Jayantobhakat/InsurancePremiumPrediction" class="top-left-link" target="_blank">GitHub Repository Link</a>
+    <h1>Insurance Premium Prediction - Jayantobhakat</h1>
+    <div class="form-box">
        <form action="{{ url_for('predict_datapoint')}}" method="post">
         <h1>
             <legend>Insurance Premium Prediction</legend>
@@ -64,12 +69,13 @@
                 </option>
             </select>
         </div>
-        <div class="mb-3">
-            <input class="btn btn-primary" type="submit" value="Predict your Premium" required />
-        </div>
+        <div style="clear:both;"></div>
+      <input type="submit" value="Submit">
     </form>
+    </div>
+    <div>      
     <h2>
-       THE  prediction is {{results}}
+      Premium Price is : {{ results }}
     </h2>
-   <body>
+  </body>
 </html>
