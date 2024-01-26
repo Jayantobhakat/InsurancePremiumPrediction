@@ -6,7 +6,9 @@ The goal of this project is to give people an estimate of how much they need bas
 
 DATASET: The datset is taken from a Kaggle. You can download the dataset from https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
 
-URL: https://premiumprediction.azurewebsites.net/predictdata
+Application URL: https://premiumprediction.azurewebsites.net/predictdata
+
+URL: http://127.0.0.1:5000/predictdata
 
 APPROACH:
 Applying machine learing tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and model testing to build a solution that should able to predict the premium of the personal for health insurance.
